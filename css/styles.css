@@ -1,0 +1,237 @@
+body{
+  /*font-family: 'Merienda', cursive;*/
+  margin: 0
+}
+h1,h2,h3,h4,h5,h6,p{
+  text-align: center;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-delay: 1s;
+}
+@media only screen and (max-width:768px) {
+  .projectImage{
+    display: none;
+  }
+}
+/*header and navigation*/
+.header{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  /*border: 1px dashed blue;*/
+  padding: 0;
+}
+.topMenu ul{
+  float: right;
+  background: rgba(255, 255, 255, 0.5);
+  border-bottom-left-radius: 50px;
+  -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+.topMenu li{
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+}
+.topMenu a{
+  padding: 30px;
+}
+.mainCanvas{
+  padding: 0;
+}
+.landingPage{
+  /*border: 1px dashed orange;*/
+  height: 50%;
+  background-image: url("../assets/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+.landingPage img{
+  max-width: 100%;
+}
+
+/*sevice page*/
+.iconBackground:hover, .socialMedia a:hover {
+  transform: rotate(-360deg);
+  transition: .20s;
+}
+.ourServices{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.jamkaraServives{
+  padding-top: 30px;
+}
+.services{
+  margin-top: 15px;
+}
+.iconBackground{
+  margin-top: 15px;
+  padding: 30px;
+  border-radius: 100%;
+  border: 1px dashed orange;
+}
+.pageHeading{
+  padding-top: 20px;
+  border-bottom: 2px solid blue;
+  float: none !important;
+  margin: 0 auto;
+}
+
+/*about page*/
+.about{
+  /*border: 1px dashed orange;*/
+  padding: 0;
+}
+.aboutBackground{
+  background-color: #EEEEEE;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.aboutJamkara{
+  padding-top: 40px;
+  float: none !important;
+  margin: 0 auto;
+}
+.aboutButton{
+  padding: 25px;
+  text-align: center;
+}
+.missionVision{
+  display: none;
+  margin-bottom: 15px;
+}
+.vision, .mission{
+  /*display: none;*/
+  margin-top: 15px;
+  font-family: 'Merienda', cursive;
+}
+.aboutButton1{
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid #000000;
+}
+
+/*projects page*/
+.projectSection{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /*border: 1px dashed orange;*/
+}
+.assortedProjects{
+  /*border: 1px dashed orange;*/
+  padding: 0;
+}
+.assortedProjects h3,.assortedProjects p{
+  text-align: left !important;
+}
+.projectFrame{
+  padding: 5px;
+}
+.project{
+  height: 30%;
+  background-image: url("../assets/project.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+}
+.project:hover{
+  opacity: 0.5;
+  animation-name: shake;
+}
+.projectImageFrame{
+  margin-top: 100px;
+  /*border: 1px dashed orange;*/
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 40px;
+}
+.projectImage{
+  background-image: url("../assets/building.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*border: 1px dashed orange;*/
+}
+.projectInvisibleDiv{
+  height: 60%;
+}
+.projectsButton{
+  float: right !important;
+}
+.projectsButton button{
+  padding: 10px;
+}
+/*contacts page*/
+.contacts{
+  padding: 0;
+  background-image: url("../assets/roadConstruction.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blurBackground{
+  background: rgba(255, 255, 255, 0.8);
+}
+.whyWork{
+  padding-top: 30px;
+  text-align: center;
+  /*border: 1px dashed orange;*/
+}
+.contactsDetails{
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+  display: none;
+}
+.contactsDetails a{
+  text-decoration: none;
+  list-style-type: none;
+}
+.contactsButton1{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  /*border: 1px dashed orange;*/
+}
+.querieStatement{
+  padding: 15px;
+}
+.contactsForm{
+  float: none !important;
+  margin: 0 auto;
+  padding:15px;
+  display: none;
+}
+.contactsForm input, .contactsForm textarea{
+  padding: 20px;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0);
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+.contactsButton2{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  /*border: 1px dashed orange;*/
+}
+.formButton{
+  padding-left: 30px;
+  padding-right: 30px;
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid #000000;
+}
+.footer{
+  text-align: center;
+  padding: 10px;
+}
+.socialMedia{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.socialMedia a{
+  margin-left: 60px;
+  margin-right: 60px;
+}
